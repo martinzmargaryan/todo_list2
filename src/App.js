@@ -1,6 +1,12 @@
 import React from "react";
+import { Container } from "@mui/material";
+import TodoTItle from "./components/TodoTItle";
 
 function App() {
-  return <div> test </div>;
+  return (
+    <Container maxWidth="sm">
+      <TodoTItle />
+    </Container>
+  );
 }
 export default App;
