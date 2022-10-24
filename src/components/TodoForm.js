@@ -16,7 +16,7 @@ const TodoForm = (props) => {
         <TextField
           value={text}
           onChange={(e) => setText(e.target.value)}
-          label="sssss"
+          label="Add Task"
           required={true}
           style={{ marginTop: 15 }}
         />
